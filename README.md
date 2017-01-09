@@ -9,6 +9,9 @@ Esse projeto foi desenvolvido para estudar o Meteor. Trata-se apenas de um CRUD 
 * [Blaze] - A powerful library for creating user interfaces by writing reactive HTML templates.
 * [MongoDB] - An open source database that uses a document-oriented data model.
 * [Bootstrap] - HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
+* [HTML5]
+* [CSS3]
+* [JavaScript (ES6)]
 
 #### Instalação e Execução
 
