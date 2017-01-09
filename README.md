@@ -5,9 +5,10 @@ Esse projeto foi desenvolvido para estudar o Meteor. Trata-se apenas de um CRUD 
 
 #### Tecnologias Utilizadas
 
-* [Meteor] - HTML enhanced for web apps!
-* [Blaze] - awesome web-based text editor
-* [MongoDB] - Markdown parser done right. Fast and easy to extend.
+* [Meteor] - Meteor is an open source platform for web, mobile, and desktop.
+* [Blaze] - A powerful library for creating user interfaces by writing reactive HTML templates.
+* [MongoDB] - An open source database that uses a document-oriented data model.
+* [Bootstrap] - HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 
 #### Instalação e Execução
 
@@ -32,7 +33,8 @@ $ meteor
 
 #### Minhas considerações finais:
 > Esse simples crud foi desenvolvido para estudar o MeteorJS. Aproveitando a oportunidade, pude aprender também um pouco do MongoDB e manipulação dos layouts e componentes com o Blaze.
-meteor
-[MongoDB]: <https://www.mongodb.com/>
+
+ [MongoDB]: <https://www.mongodb.com/>
 [Meteor]: <https://www.meteor.com/>
 [Blaze]: <http://blazejs.org/>
+[Bootstrap]: <http://getbootstrap.com/>
