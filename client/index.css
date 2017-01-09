@@ -1,0 +1,70 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #5F4B66;
+  color: #8797AF;
+  padding-top: 20px;
+}
+
+
+/*Sobrescrevendo estilos do bootstrap para personalizar*/
+.navbar {
+  margin-bottom: 0;
+  color: #56667A;
+}
+.jumbotron{
+  background-color: #5F4B66;
+  color: #8797AF;
+}
+.navbar-default{
+  background-color: #2C1320;
+  border-color: #2C1320;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2C1320;
+    border-color: #566678;
+}
+
+.btn-primary:hover, 
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:target{
+  background-color: #24151D !important;
+}
+
+/*Msgs de feedback ao usuário*/
+p.alert-success,
+p.alert-danger{
+  padding: 8px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  display: none;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #C5CDEC;
+}
+
+/*Mensagem need login*/
+
+.need-login {
+  padding: 10px;
+}

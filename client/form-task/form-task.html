@@ -1,0 +1,23 @@
+<template name="formTask">
+	<div class="row">
+		<p class="alert-success text-center" id="js-feedback-success"></p>
+		<p class="alert-danger text-center" id="js-feedback-error"></p>
+		<div class="col-sm-8 col-sm-offset-2">
+			<form id="js-form">
+				<div class="form-group">
+					<input type="text" name="nome" placeholder="Nome da tarefa" class="form-control" value="{{task.nome}}">
+				</div>
+
+				<div class="form-group">
+					<input type="number" name="prioridade" min="0" max="5" placeholder="Prioridade" class="form-control" 
+					value="{{task.prioridade}}">
+				</div>
+				
+				<input type="hidden" value="{{task._id}}" id="js-input-id">
+
+				<button class="btn btn-success">Salvar Tarefa</button>
+				<a href="/" class="btn btn-primary">Voltar</a>
+			</form>
+		</div>
+	</div>
+</template>

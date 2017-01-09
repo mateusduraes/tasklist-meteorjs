@@ -1,0 +1,32 @@
+<template name="taskList">
+	{{#if list}}
+	<table class="table table-hover">
+		<thead>
+			<tr>
+				<th>Tarefa</th>
+				<th>Prioridade</th>
+				<th>Data de Criação</th>
+				<th>Ação</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{#each list}}			
+			<tr>
+				<td>{{nome}}</td>
+				<td>{{prioridade}}</td>
+				<td>{{formataData}}</td>
+				<td>
+					<button id="js-remove-task" class="btn btn-danger btn-sm glyphicon glyphicon-trash"></button>
+					<a href="/task/edit/{{_id}}" class="btn btn-primary btn-sm glyphicon glyphicon-pencil"></a>
+				</td>
+			</tr>
+			{{/each}}
+		</tbody>
+	</table>
+	{{else}}
+	<p class="alert alert-info">
+		Nenhuma tarefa foi cadastrada ainda.
+	</p>
+	{{/if}}
+	<a href="/task/add" class="btn btn-lg btn-primary pull-right">Nova Tarefa</a>
+</template>
